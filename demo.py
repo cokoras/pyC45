@@ -24,5 +24,6 @@ if __name__=="__main__":
         if not answer[i]==prediction[i]:
             err=err+1
     print "error rate=",round(float(err)/len(prediction)*100,2),"%"
+    # Just a test
     
         
